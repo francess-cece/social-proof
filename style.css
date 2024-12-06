@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content {
+  width: 100%;
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  margin: 1rem;
+  text-align: center;
+}
+.user-product {
+  color: grey;
+  margin: 1rem;
+  text-align: center;
+}
+.rated-star {
+  background-color: hsl(300, 24%, 96%);
+  margin: 1rem auto;
+  /* width: 90%; */
+  padding: 5px;
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+  border-radius: 4px;
+}
+.colton {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+.smith {
+  width: 2rem;
+  border-radius: 50%;
+}
+.verified-buyer {
+  display: flex;
+  gap: 1rem;
+}
+.colton p {
+  padding-top: 1rem;
+}
+.span1 {
+  font-weight: bold;
+}
+.span2 {
+  color: red;
+}
+.rated-star p {
+  margin: 0.5rem;
+  font-size: 15px;
+}
+@media (min-width: 769px) {
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rate-flex {
+    display: flex;
+  }
+  .top-flex {
+    display: flex;
+  }
+  .rated-star {
+    width: 80%;
+  }
+  .star-2 {
+    margin-left: 7rem;
+  }
+  .star-3 {
+    margin-left: 9rem;
+  }
+
+  .star-icon {
+    margin-left: 2rem;
+  }
+  .customer-review {
+    width: 40%;
+  }
+  .colton {
+    width: 40%;
+    margin: 10px;
+  }
+  .footer {
+    display: flex;
+  }
+}
